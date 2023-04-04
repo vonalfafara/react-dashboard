@@ -1,0 +1,42 @@
+.App {
+  height: 100vh;
+}
+
+.login {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard {
+  display: flex;
+  padding: 1rem;
+  height: 100vh;
+}
+
+.sidebar {
+  height: 100%;
+  width: 400px;
+  padding: 1rem;
+  background-image: linear-gradient(to bottom, #646464, #555555, #464646, #383838, #2a2a2a);
+  border-radius: 10px;
+}
+
+.sidebar-logo {
+  padding: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+  color: white;
+}
+
+.main-content {
+  width: 100%;
+  padding-left: 1rem;
+}
+
+.main-navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
